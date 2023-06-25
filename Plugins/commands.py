@@ -51,14 +51,14 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('🔹ᴀᴅᴅ ᴛʜɪs ʙᴏᴛ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('☎ ᴀᴅᴅ ᴛʜɪs ʙᴏᴛ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ☎', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡ᴅᴀᴅᴅʏ', callback_data="owner_info"),
-                    InlineKeyboardButton('🔹sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🔹', url=GRP_LNK)
+                    InlineKeyboardButton('✪ Owner ✪', callback_data="owner_info"),
+                    InlineKeyboardButton('☛ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ☚', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🤝Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('×͜× Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('⚡Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ⚡', url=CHNL_LNK)
+                    InlineKeyboardButton('₣ Hᴇʟᴘ ₣', callback_data='help'),
+                    InlineKeyboardButton('×͜× Aʙᴏᴜᴛ ×͜×', callback_data='about'),
+                    InlineKeyboardButton('↺ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ↺', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('💸ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ💸', callback_data='aadiearn')
                   ]]
@@ -102,12 +102,12 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔹ᴀᴅᴅ ᴛʜɪs ʙᴏᴛ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡ᴅᴀᴅᴅʏ', callback_data="owner_info"),
-                    InlineKeyboardButton('🔹sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🔹', url=GRP_LNK)
+                    InlineKeyboardButton('✪ Owner ✪', callback_data="owner_info"),
+                    InlineKeyboardButton('☛ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ☚', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🤝Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('×͜× Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('⚡Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ⚡', url=CHNL_LNK)
+                    InlineKeyboardButton('₣ Hᴇʟᴘ ₣', callback_data='help'),
+                    InlineKeyboardButton('×͜× Aʙᴏᴜᴛ ×͜×', callback_data='about'),
+                    InlineKeyboardButton('↺ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ↺', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('💸ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ💸', callback_data='aadiearn')
                   ]]
@@ -163,7 +163,7 @@ async def start(client, message):
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Mr_official_300")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/PROFE07XH")
                          ]
                         ]
                     )
@@ -182,7 +182,7 @@ async def start(client, message):
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Mr_official_300")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/PROFE07XH")
                          ]
                         ]
                     )
@@ -283,7 +283,7 @@ async def start(client, message):
             if IS_VERIFY and not await check_verification(client, message.from_user.id):
                 btn = [[
                     InlineKeyboardButton("Vᴇʀɪғʏ⚡", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
-InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/aboutme_tonystark/03")
+InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/Update_Proffsor_Bot")
                       ]]
                 await message.reply_text(
                     text="<b>💠Nᴏᴛᴇ :- ᴘʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ғɪʟᴇ ᴀᴄᴄᴇs ᴜɴᴛɪʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 2 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ⚡ \n\nঅনুগ্রহ করে ᴠᴇʀɪғʏ করুন এবং 2 ঘণ্টার জন্য সব ফাইল নিন বাধাহীন ভাবে⚡ \n\nकृपया ᴠᴇʀɪғʏ करें और अगले ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ तक असीमित फ़ाइल एक्सेस प्राप्त करें जो अब से 2 घंटे बाद है⚡</b>",
@@ -301,7 +301,7 @@ InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                       InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Mr_official_300")
+                      InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/PROFE07XH")
                      ]
                     ]
                 )
@@ -336,7 +336,7 @@ InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/
     if IS_VERIFY and not await check_verification(client, message.from_user.id):
         btn = [[
             InlineKeyboardButton("Vᴇʀɪғʏ⚡", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
-InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/aboutme_tonystark/03")
+InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/Update_Proffsor_Bot")
               ]]
         await message.reply_text(
             text="<b>💠Nᴏᴛᴇ :- ᴘʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ғɪʟᴇ ᴀᴄᴄᴇs ᴜɴᴛɪʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 2 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ⚡ \n\nঅনুগ্রহ করে ᴠᴇʀɪғʏ করুন এবং 2 ঘণ্টার জন্য সব ফাইল নিন বাধাহীন ভাবে⚡ \n\nकृपया ᴠᴇʀɪғʏ करें और अगले ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ तक असीमित फ़ाइल एक्सेस प्राप्त करें जो अब से 2 घंटे बाद है⚡</b>",
@@ -356,7 +356,7 @@ InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/
               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Mr_official_300")
+              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/PROFE07XH")
              ]
             ]
         )
