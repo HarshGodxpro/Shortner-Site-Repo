@@ -233,7 +233,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/aboutme_tonystark/17")
+        InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/Update_Proffsor_Bot")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -346,7 +346,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/aboutme_tonystark/17")
+            InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/Update_Proffsor_Bot")
         ])
 
         if offset != "":
@@ -672,7 +672,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                            ],[
-                              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Mr_official_300")
+                              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/PROFE07XH")
                              ]
                             ]
                         )
@@ -723,7 +723,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if IS_VERIFY and not await check_verification(client, query.from_user.id):
             btn = [[
                 InlineKeyboardButton("Vᴇʀɪғʏ⚡", url=await get_token(client, query.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
-InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/aboutme_tonystark/03")
+InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/Update_Proffsor_Bot")
                   ]]
             await client.send_message(
                 chat_id=query.from_user.id,
@@ -745,7 +745,7 @@ InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/
                   InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Mr_official_300")
+                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/PROFE07XH")
                  ]
                 ]
             )
@@ -1093,11 +1093,11 @@ InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/
         buttons = [[
                     InlineKeyboardButton('🔹ᴀᴅᴅ ᴛʜɪs ʙᴏᴛ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡ᴅᴀᴅᴅʏ', callback_data="owner_info"),
+                    InlineKeyboardButton('🚀 Owner 🚀', callback_data="owner_info"),
                     InlineKeyboardButton('🔹sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🔹', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('🤝Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('×͜× Aʙᴏᴜᴛ', callback_data='about'),
+                    InlineKeyboardButton('×͜× Hᴇʟᴘ ×͜×', callback_data='help'),
+                    InlineKeyboardButton('×͜× Aʙᴏᴜᴛ ×͜×', callback_data='about'),
                     InlineKeyboardButton('⚡Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ⚡', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton('💸ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ💸', callback_data='aadiearn')
