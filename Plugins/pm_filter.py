@@ -233,7 +233,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/Update_Proffsor_Bot")
+        InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/Update_Proffsor_Bot/7")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -346,7 +346,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/Update_Proffsor_Bot")
+            InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/Update_Proffsor_Bot/7")
         ])
 
         if offset != "":
@@ -723,7 +723,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if IS_VERIFY and not await check_verification(client, query.from_user.id):
             btn = [[
                 InlineKeyboardButton("Vᴇʀɪғʏ⚡", url=await get_token(client, query.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
-InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/Update_Proffsor_Bot")
+InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/Update_Proffsor_Bot/5")
                   ]]
             await client.send_message(
                 chat_id=query.from_user.id,
@@ -1138,7 +1138,7 @@ InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/
         )
     elif query.data == "aadiearn":
         buttons = [[
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ', url='t.me/Mr_Official_300')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ', url='t.me/PROFE07XH')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ ↻', callback_data='close_data')
@@ -1386,7 +1386,7 @@ InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ💠",url="https://t.me/
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/Mr_official_300")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/PROFE07XH")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1594,7 +1594,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/aboutme_tonystark/17")
+        InlineKeyboardButton("« ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ »", url=f"https://t.me/Update_Proffsor_Bot/7")
     ])
 
     if offset != "":
